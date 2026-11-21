@@ -1,0 +1,50 @@
+{
+  "_comment": "Brake-by-wire case study for the Agentic Assurance Graph (AAG). Hand-constructed and illustrative. Artifact keys are entry-level (one key per allocation row, per partition-table entry, ...), so an edit to one row only changes that key's hash. 'manifest' lists the artifacts the producing tool itself reads (empty for human analyses such as a TARA or review). 'extra' lists declared dependencies outside the manifest. 'consumes' lists other evidence items whose results this item takes as input (derived artifacts out(E)).",
+  "platform": "Safety island with two lockstep core pairs, each presenting one logical core (logical cores 0 and 1); application cluster for QM software; shared SRAM and interconnect.",
+  "artifacts": [
+    "code.BrakeCtl", "code.WSpeed", "code.E2E", "code.Diag", "code.IDS",
+    "alloc.island.core0", "alloc.island.core1", "alloc.app",
+    "taskparams.core0", "taskparams.core1",
+    "mpu.part.BrakeCtl", "mpu.part.WSpeed", "mpu.part.IDS",
+    "interconnect.cfg", "image.island", "image.app",
+    "arch.item", "arch.security", "can.matrix", "hil.rig", "hara.doc"
+  ],
+  "change_set": [
+    "alloc.island.core1", "mpu.part.IDS", "interconnect.cfg",
+    "image.island", "arch.security", "code.IDS"
+  ],
+  "evidence": {
+    "E1":  {"desc": "HARA review", "type": "review", "manifest": [], "extra": ["arch.item", "hara.doc"]},
+    "E2":  {"desc": "BrakeCtl unit tests (MC/DC)", "type": "test.unit", "manifest": ["code.BrakeCtl"], "extra": []},
+    "E3":  {"desc": "RTA, core 0 (BrakeCtl)", "type": "analysis.rta", "manifest": ["alloc.island.core0", "taskparams.core0"], "extra": [], "consumes": ["E5"]},
+    "E4":  {"desc": "RTA, core 1 (WSpeed)", "type": "analysis.rta", "manifest": ["alloc.island.core1", "taskparams.core1"], "extra": [], "consumes": ["E5"]},
+    "E5":  {"desc": "Multicore interference analysis", "type": "analysis.interference", "manifest": ["image.island"], "extra": ["alloc.island.core0", "alloc.island.core1", "alloc.app", "interconnect.cfg"]},
+    "E6":  {"desc": "MPU partition check", "type": "analysis.mpu", "manifest": ["mpu.part.BrakeCtl", "mpu.part.WSpeed", "mpu.part.IDS"], "extra": []},
+    "E7":  {"desc": "HIL latency test TC-17", "type": "test.hil", "manifest": ["image.island", "hil.rig"], "extra": []},
+    "E8":  {"desc": "WSpeed plausibility unit tests", "type": "test.unit", "manifest": ["code.WSpeed"], "extra": []},
+    "E9":  {"desc": "TARA, CAN interface", "type": "analysis.tara", "manifest": [], "extra": ["arch.security", "can.matrix"]},
+    "E10": {"desc": "End-to-end protection tests", "type": "test.unit", "manifest": ["code.E2E", "can.matrix"], "extra": []},
+    "E11": {"desc": "BrakeCtl static analysis", "type": "analysis.static", "manifest": ["code.BrakeCtl"], "extra": []},
+    "E12": {"desc": "Diagnostics tests", "type": "test.unit", "manifest": ["code.Diag", "image.app"], "extra": []}
+  },
+  "trace_links": {
+    "_comment": "Code-centric baseline: evidence linked to code units or built images.",
+    "E2": ["code.BrakeCtl"], "E7": ["image.island"], "E8": ["code.WSpeed"],
+    "E10": ["code.E2E"], "E11": ["code.BrakeCtl"], "E12": ["code.Diag", "image.app"]
+  },
+  "scope_templates": {
+    "_comment": "Type-level minimum scopes (deterministic completeness check). {cores} expands to every core allocation of the platform; derived from the interference channels CAST-32A / AMC 20-193 require to be identified.",
+    "analysis.interference": ["alloc.island.core0", "alloc.island.core1", "alloc.app", "interconnect.cfg"],
+    "analysis.rta": ["out:analysis.interference"],
+    "analysis.tara": ["arch.security"]
+  },
+  "claims": {
+    "G0": {"desc": "Brake-by-wire function is acceptably safe and secure", "ev": ["E1"], "sub": ["G1", "G2", "G3", "G4", "G5", "G6"], "req": ["review"]},
+    "G1": {"desc": "Brake command issued within 10 ms of pedal input", "ev": ["E3", "E5", "E7"], "sub": [], "req": ["analysis.rta", "analysis.interference", "test.hil"]},
+    "G2": {"desc": "Freedom from interference for ASIL D partitions", "ev": ["E5", "E6"], "sub": [], "req": ["analysis.interference", "analysis.mpu"]},
+    "G3": {"desc": "CAN spoofing of brake requests is mitigated", "ev": ["E9", "E10"], "sub": [], "req": ["analysis.tara"]},
+    "G4": {"desc": "Wheel-speed implausibility detected within 5 ms", "ev": ["E4", "E8"], "sub": [], "req": ["analysis.rta"]},
+    "G5": {"desc": "BrakeCtl software meets its unit requirements", "ev": ["E2", "E11"], "sub": [], "req": ["test.unit"]},
+    "G6": {"desc": "Diagnostics report brake DTCs correctly", "ev": ["E12"], "sub": [], "req": ["test.unit"]}
+  }
+}

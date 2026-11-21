@@ -1,0 +1,4 @@
+# The benchmark, core and scoring use only the Python standard library (Python 3.10+).
+# make_figs.py needs matplotlib; the agent run needs the Anthropic SDK.
+matplotlib
+anthropic==2.11.0
