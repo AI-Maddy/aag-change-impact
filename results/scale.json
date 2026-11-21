@@ -1,0 +1,110 @@
+[
+ {
+  "evidence": 1000,
+  "artifacts": 3000,
+  "claims": 250,
+  "changed": 1,
+  "median_s": 0.0001,
+  "invalidated_median": 5,
+  "build_s": 0.01
+ },
+ {
+  "evidence": 1000,
+  "artifacts": 3000,
+  "claims": 250,
+  "changed": 10,
+  "median_s": 0.0001,
+  "invalidated_median": 59,
+  "build_s": 0.01
+ },
+ {
+  "evidence": 1000,
+  "artifacts": 3000,
+  "claims": 250,
+  "changed": 100,
+  "median_s": 0.0001,
+  "invalidated_median": 476,
+  "build_s": 0.01
+ },
+ {
+  "evidence": 10000,
+  "artifacts": 30000,
+  "claims": 2500,
+  "changed": 1,
+  "median_s": 0.001,
+  "invalidated_median": 7,
+  "build_s": 0.06
+ },
+ {
+  "evidence": 10000,
+  "artifacts": 30000,
+  "claims": 2500,
+  "changed": 10,
+  "median_s": 0.0009,
+  "invalidated_median": 82,
+  "build_s": 0.06
+ },
+ {
+  "evidence": 10000,
+  "artifacts": 30000,
+  "claims": 2500,
+  "changed": 100,
+  "median_s": 0.0011,
+  "invalidated_median": 734,
+  "build_s": 0.06
+ },
+ {
+  "evidence": 100000,
+  "artifacts": 300000,
+  "claims": 25000,
+  "changed": 1,
+  "median_s": 0.0107,
+  "invalidated_median": 12,
+  "build_s": 0.96
+ },
+ {
+  "evidence": 100000,
+  "artifacts": 300000,
+  "claims": 25000,
+  "changed": 10,
+  "median_s": 0.0101,
+  "invalidated_median": 98,
+  "build_s": 0.96
+ },
+ {
+  "evidence": 100000,
+  "artifacts": 300000,
+  "claims": 25000,
+  "changed": 100,
+  "median_s": 0.0116,
+  "invalidated_median": 1054,
+  "build_s": 0.96
+ },
+ {
+  "evidence": 1000000,
+  "artifacts": 3000000,
+  "claims": 250000,
+  "changed": 1,
+  "median_s": 0.1007,
+  "invalidated_median": 5,
+  "build_s": 15.22
+ },
+ {
+  "evidence": 1000000,
+  "artifacts": 3000000,
+  "claims": 250000,
+  "changed": 10,
+  "median_s": 0.1071,
+  "invalidated_median": 121,
+  "build_s": 15.22
+ },
+ {
+  "evidence": 1000000,
+  "artifacts": 3000000,
+  "claims": 250000,
+  "changed": 100,
+  "median_s": 0.115,
+  "invalidated_median": 1219,
+  "build_s": 15.22
+ }
+]

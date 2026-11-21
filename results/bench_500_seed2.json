@@ -1,0 +1,2307 @@
+{
+ "methods": {
+  "analytic": {
+   "add_ids_island": {
+    "scenarios": 500,
+    "stale_items": 2726,
+    "critical_items": 16,
+    "scenarios_with_stale": 500,
+    "needed_hours": 2161.0,
+    "trace": {
+     "recall": 0.0059,
+     "precision": 0.032,
+     "missed_items": 2710,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 3000,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.5561,
+     "precision": 0.758,
+     "missed_items": 1210,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9300.0
+    },
+    "aag_direct": {
+     "recall": 0.5561,
+     "precision": 0.6064,
+     "missed_items": 1210,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 21300.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.5452,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 22550.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.5452,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 22550.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.5452,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 22550.0
+    }
+   },
+   "add_ids_app": {
+    "scenarios": 500,
+    "stale_items": 2311,
+    "critical_items": 12,
+    "scenarios_with_stale": 500,
+    "needed_hours": 13471.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 2311,
+     "missed_critical": 12,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 12,
+     "claims_falsely_supported": 2518,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.3258,
+     "precision": 1.0,
+     "missed_items": 1558,
+     "missed_critical": 12,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 12,
+     "claims_falsely_supported": 500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 756.0
+    },
+    "aag_direct": {
+     "recall": 0.5474,
+     "precision": 0.84,
+     "missed_items": 1046,
+     "missed_critical": 0,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 16804.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.834,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 17436.5
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.834,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 17436.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.5136,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 22500.0
+    }
+   },
+   "realloc_island": {
+    "scenarios": 500,
+    "stale_items": 1593,
+    "critical_items": 31,
+    "scenarios_with_stale": 500,
+    "needed_hours": 2345.0,
+    "trace": {
+     "recall": 0.0326,
+     "precision": 0.104,
+     "missed_items": 1541,
+     "missed_critical": 2,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 2,
+     "claims_falsely_supported": 2975,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.9711,
+     "precision": 0.7735,
+     "missed_items": 46,
+     "missed_critical": 0,
+     "scenarios_with_miss": 17,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9500.0
+    },
+    "aag_direct": {
+     "recall": 0.9711,
+     "precision": 0.7735,
+     "missed_items": 46,
+     "missed_critical": 0,
+     "scenarios_with_miss": 17,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9500.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.3982,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.4003,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10490.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.3982,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    }
+   },
+   "realloc_app": {
+    "scenarios": 500,
+    "stale_items": 1056,
+    "critical_items": 11,
+    "scenarios_with_stale": 500,
+    "needed_hours": 612.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 1056,
+     "missed_critical": 11,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 11,
+     "claims_falsely_supported": 1280,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 1.0,
+     "precision": 0.8428,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 1006.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.7012,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5054.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.4194,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5560.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.6104,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5166.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.264,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    }
+   },
+   "app_sram_enable": {
+    "scenarios": 500,
+    "stale_items": 1413,
+    "critical_items": 26,
+    "scenarios_with_stale": 253,
+    "needed_hours": 1489.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 1413,
+     "missed_critical": 26,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 26,
+     "claims_falsely_supported": 1771,
+     "scenarios_with_false_support": 253,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.2427,
+     "precision": 0.4555,
+     "missed_items": 1070,
+     "missed_critical": 26,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 26,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 756.0
+    },
+    "aag_direct": {
+     "recall": 0.2611,
+     "precision": 0.3668,
+     "missed_items": 1044,
+     "missed_critical": 0,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4804.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.6222,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5436.5
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.6222,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5436.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.3533,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    }
+   },
+   "wcet_change": {
+    "scenarios": 500,
+    "stale_items": 3161,
+    "critical_items": 551,
+    "scenarios_with_stale": 500,
+    "needed_hours": 2729.0,
+    "trace": {
+     "recall": 0.3325,
+     "precision": 0.7007,
+     "missed_items": 2110,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 2848,
+     "scenarios_with_false_support": 488,
+     "reverification_hours": 8150.0
+    },
+    "manifest": {
+     "recall": 0.64,
+     "precision": 0.8092,
+     "missed_items": 1138,
+     "missed_critical": 0,
+     "scenarios_with_miss": 472,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9400.0
+    },
+    "aag_direct": {
+     "recall": 0.64,
+     "precision": 0.8092,
+     "missed_items": 1138,
+     "missed_critical": 0,
+     "scenarios_with_miss": 472,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9400.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.6322,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10650.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.6504,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10580.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.6322,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10650.0
+    }
+   },
+   "refactor": {
+    "scenarios": 500,
+    "stale_items": 500,
+    "critical_items": 0,
+    "scenarios_with_stale": 500,
+    "needed_hours": 100.0,
+    "trace": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    },
+    "manifest": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    }
+   },
+   "period_change": {
+    "scenarios": 500,
+    "stale_items": 2224,
+    "critical_items": 150,
+    "scenarios_with_stale": 500,
+    "needed_hours": 3110.0,
+    "trace": {
+     "recall": 0.0364,
+     "precision": 0.162,
+     "missed_items": 2143,
+     "missed_critical": 95,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 95,
+     "claims_falsely_supported": 2973,
+     "scenarios_with_false_support": 498,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.4618,
+     "precision": 0.6847,
+     "missed_items": 1197,
+     "missed_critical": 0,
+     "scenarios_with_miss": 495,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9250.0
+    },
+    "aag_direct": {
+     "recall": 0.4618,
+     "precision": 0.6847,
+     "missed_items": 1197,
+     "missed_critical": 0,
+     "scenarios_with_miss": 495,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9250.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.556,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.5595,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10487.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.556,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    }
+   },
+   "ic_change": {
+    "scenarios": 500,
+    "stale_items": 2388,
+    "critical_items": 135,
+    "scenarios_with_stale": 500,
+    "needed_hours": 4703.0,
+    "trace": {
+     "recall": 0.0745,
+     "precision": 0.356,
+     "missed_items": 2210,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 3000,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.2839,
+     "precision": 0.678,
+     "missed_items": 1710,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9000.0
+    },
+    "aag_direct": {
+     "recall": 0.2839,
+     "precision": 0.678,
+     "missed_items": 1710,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9000.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.597,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.597,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.597,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10500.0
+    }
+   },
+   "partition_resize": {
+    "scenarios": 500,
+    "stale_items": 349,
+    "critical_items": 349,
+    "scenarios_with_stale": 349,
+    "needed_hours": 34.9,
+    "trace": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "missed_items": 349,
+     "missed_critical": 349,
+     "scenarios_with_miss": 349,
+     "scenarios_with_critical_miss": 349,
+     "claims_falsely_supported": 349,
+     "scenarios_with_false_support": 349,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 1.0,
+     "precision": 0.349,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8050.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.349,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8050.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.349,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8050.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.349,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8050.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.349,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8050.0
+    }
+   },
+   "can_add_msg": {
+    "scenarios": 500,
+    "stale_items": 735,
+    "critical_items": 735,
+    "scenarios_with_stale": 500,
+    "needed_hours": 12117.5,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 735,
+     "missed_critical": 735,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 500,
+     "claims_falsely_supported": 500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.3197,
+     "precision": 0.47,
+     "missed_items": 500,
+     "missed_critical": 500,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 500,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 250.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    }
+   },
+   "app_code_change": {
+    "scenarios": 500,
+    "stale_items": 1785,
+    "critical_items": 502,
+    "scenarios_with_stale": 500,
+    "needed_hours": 659.0,
+    "trace": {
+     "recall": 0.5602,
+     "precision": 1.0,
+     "missed_items": 785,
+     "missed_critical": 2,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 2,
+     "claims_falsely_supported": 842,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 150.0
+    },
+    "manifest": {
+     "recall": 0.8723,
+     "precision": 0.8882,
+     "missed_items": 228,
+     "missed_critical": 2,
+     "scenarios_with_miss": 57,
+     "scenarios_with_critical_miss": 2,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 906.0
+    },
+    "aag_direct": {
+     "recall": 0.8734,
+     "precision": 0.7772,
+     "missed_items": 226,
+     "missed_critical": 0,
+     "scenarios_with_miss": 57,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4954.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.5457,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5586.5
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.7791,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5096.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.357,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 10650.0
+    }
+   },
+   "dma_enable": {
+    "scenarios": 500,
+    "stale_items": 2451,
+    "critical_items": 241,
+    "scenarios_with_stale": 500,
+    "needed_hours": 5711.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 2451,
+     "missed_critical": 241,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 3500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.204,
+     "precision": 1.0,
+     "missed_items": 1951,
+     "missed_critical": 241,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 1000.0
+    },
+    "aag_direct": {
+     "recall": 0.204,
+     "precision": 1.0,
+     "missed_items": 1951,
+     "missed_critical": 241,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 1000.0
+    },
+    "aag_closed": {
+     "recall": 0.9017,
+     "precision": 0.6314,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 2500.0
+    },
+    "aag_cutoff": {
+     "recall": 0.9017,
+     "precision": 0.6314,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 2500.0
+    },
+    "aag_closed_file": {
+     "recall": 0.9017,
+     "precision": 0.6314,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 2500.0
+    }
+   },
+   "ALL": {
+    "scenarios": 6500,
+    "stale_items": 22692,
+    "critical_items": 2759,
+    "scenarios_with_stale": 6102,
+    "needed_hours": 49242.4,
+    "trace": {
+     "recall": 0.1268,
+     "precision": 0.4428,
+     "missed_items": 19814,
+     "missed_critical": 1473,
+     "scenarios_with_miss": 5602,
+     "scenarios_with_critical_miss": 1238,
+     "claims_falsely_supported": 25556,
+     "scenarios_with_false_support": 5588,
+     "reverification_hours": 56450.0
+    },
+    "manifest": {
+     "recall": 0.5325,
+     "precision": 0.7103,
+     "missed_items": 10608,
+     "missed_critical": 781,
+     "scenarios_with_miss": 3794,
+     "scenarios_with_critical_miss": 781,
+     "claims_falsely_supported": 500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 67324.0
+    },
+    "aag_direct": {
+     "recall": 0.5784,
+     "precision": 0.6722,
+     "missed_items": 9568,
+     "missed_critical": 241,
+     "scenarios_with_miss": 3047,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 119516.0
+    },
+    "aag_closed": {
+     "recall": 0.9894,
+     "precision": 0.5637,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 129669.5
+    },
+    "aag_cutoff": {
+     "recall": 0.9894,
+     "precision": 0.5927,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 128693.0
+    },
+    "aag_closed_file": {
+     "recall": 0.9894,
+     "precision": 0.4828,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 149800.0
+    },
+    "per_type": {
+     "e2e": {
+      "stale": 235,
+      "trace": 0.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "hil": {
+      "stale": 659,
+      "trace": 0.5736,
+      "manifest": 0.5736,
+      "aag_direct": 0.6343,
+      "aag_closed": 0.6343,
+      "aag_cutoff": 0.6343
+     },
+     "interference": {
+      "stale": 3581,
+      "trace": 0.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "mpu": {
+      "stale": 849,
+      "trace": 0.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "rta": {
+      "stale": 13868,
+      "trace": 0.0,
+      "manifest": 0.3274,
+      "aag_direct": 0.3274,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "static": {
+      "stale": 1500,
+      "trace": 1.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "tara": {
+      "stale": 1000,
+      "trace": 0.0,
+      "manifest": 0.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "unit": {
+      "stale": 1000,
+      "trace": 1.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     }
+    }
+   }
+  },
+  "measured": {
+   "add_ids_island": {
+    "scenarios": 500,
+    "stale_items": 2726,
+    "critical_items": 16,
+    "scenarios_with_stale": 500,
+    "needed_hours": 5161.0,
+    "trace": {
+     "recall": 0.0059,
+     "precision": 0.032,
+     "missed_items": 2710,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 3000,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.5561,
+     "precision": 0.758,
+     "missed_items": 1210,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12300.0
+    },
+    "aag_direct": {
+     "recall": 0.5561,
+     "precision": 0.6064,
+     "missed_items": 1210,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 24300.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.5452,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 25550.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.5452,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 25550.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.5452,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 25550.0
+    }
+   },
+   "add_ids_app": {
+    "scenarios": 500,
+    "stale_items": 2311,
+    "critical_items": 12,
+    "scenarios_with_stale": 500,
+    "needed_hours": 14989.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 2311,
+     "missed_critical": 12,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 12,
+     "claims_falsely_supported": 2518,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.3258,
+     "precision": 0.753,
+     "missed_items": 1558,
+     "missed_critical": 12,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 12,
+     "claims_falsely_supported": 500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 4250.0
+    },
+    "aag_direct": {
+     "recall": 0.5474,
+     "precision": 0.7216,
+     "missed_items": 1046,
+     "missed_critical": 0,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 20298.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.5434,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 21548.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.7657,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 20930.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.5136,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 25500.0
+    }
+   },
+   "realloc_island": {
+    "scenarios": 500,
+    "stale_items": 1593,
+    "critical_items": 31,
+    "scenarios_with_stale": 500,
+    "needed_hours": 5315.0,
+    "trace": {
+     "recall": 0.0326,
+     "precision": 0.104,
+     "missed_items": 1541,
+     "missed_critical": 2,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 2,
+     "claims_falsely_supported": 2975,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.9711,
+     "precision": 0.7735,
+     "missed_items": 46,
+     "missed_critical": 0,
+     "scenarios_with_miss": 17,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12500.0
+    },
+    "aag_direct": {
+     "recall": 0.9711,
+     "precision": 0.7735,
+     "missed_items": 46,
+     "missed_critical": 0,
+     "scenarios_with_miss": 17,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12500.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.3982,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.4003,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13490.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.3982,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    }
+   },
+   "realloc_app": {
+    "scenarios": 500,
+    "stale_items": 1056,
+    "critical_items": 11,
+    "scenarios_with_stale": 500,
+    "needed_hours": 948.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 1056,
+     "missed_critical": 11,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 11,
+     "claims_falsely_supported": 1280,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 1.0,
+     "precision": 0.704,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4500.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.6024,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8548.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.2814,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9548.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.5341,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8660.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.264,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    }
+   },
+   "app_sram_enable": {
+    "scenarios": 500,
+    "stale_items": 1413,
+    "critical_items": 26,
+    "scenarios_with_stale": 253,
+    "needed_hours": 3007.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 1413,
+     "missed_critical": 26,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 26,
+     "claims_falsely_supported": 1771,
+     "scenarios_with_false_support": 253,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.2427,
+     "precision": 0.343,
+     "missed_items": 1070,
+     "missed_critical": 26,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 26,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4250.0
+    },
+    "aag_direct": {
+     "recall": 0.2611,
+     "precision": 0.2945,
+     "missed_items": 1044,
+     "missed_critical": 0,
+     "scenarios_with_miss": 253,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8298.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.3765,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9548.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.5612,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8930.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.3533,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    }
+   },
+   "wcet_change": {
+    "scenarios": 500,
+    "stale_items": 3161,
+    "critical_items": 551,
+    "scenarios_with_stale": 500,
+    "needed_hours": 5561.0,
+    "trace": {
+     "recall": 0.3325,
+     "precision": 0.7007,
+     "missed_items": 2110,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 2848,
+     "scenarios_with_false_support": 488,
+     "reverification_hours": 8150.0
+    },
+    "manifest": {
+     "recall": 0.64,
+     "precision": 0.8092,
+     "missed_items": 1138,
+     "missed_critical": 0,
+     "scenarios_with_miss": 472,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12400.0
+    },
+    "aag_direct": {
+     "recall": 0.64,
+     "precision": 0.8092,
+     "missed_items": 1138,
+     "missed_critical": 0,
+     "scenarios_with_miss": 472,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12400.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.6322,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13650.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.6504,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13580.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.6322,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13650.0
+    }
+   },
+   "refactor": {
+    "scenarios": 500,
+    "stale_items": 500,
+    "critical_items": 0,
+    "scenarios_with_stale": 500,
+    "needed_hours": 100.0,
+    "trace": {
+     "recall": 1.0,
+     "precision": 0.3333,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8150.0
+    },
+    "manifest": {
+     "recall": 1.0,
+     "precision": 0.25,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12150.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.25,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12150.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.1,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13650.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.25,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12150.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.1,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13650.0
+    }
+   },
+   "period_change": {
+    "scenarios": 500,
+    "stale_items": 2224,
+    "critical_items": 150,
+    "scenarios_with_stale": 500,
+    "needed_hours": 6080.0,
+    "trace": {
+     "recall": 0.0364,
+     "precision": 0.162,
+     "missed_items": 2143,
+     "missed_critical": 95,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 95,
+     "claims_falsely_supported": 2973,
+     "scenarios_with_false_support": 498,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.4618,
+     "precision": 0.6847,
+     "missed_items": 1197,
+     "missed_critical": 0,
+     "scenarios_with_miss": 495,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_direct": {
+     "recall": 0.4618,
+     "precision": 0.6847,
+     "missed_items": 1197,
+     "missed_critical": 0,
+     "scenarios_with_miss": 495,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.556,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.5595,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13487.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.556,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    }
+   },
+   "ic_change": {
+    "scenarios": 500,
+    "stale_items": 2388,
+    "critical_items": 135,
+    "scenarios_with_stale": 500,
+    "needed_hours": 7703.0,
+    "trace": {
+     "recall": 0.0745,
+     "precision": 0.356,
+     "missed_items": 2210,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 3000,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 0.2839,
+     "precision": 0.678,
+     "missed_items": 1710,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12000.0
+    },
+    "aag_direct": {
+     "recall": 0.2839,
+     "precision": 0.678,
+     "missed_items": 1710,
+     "missed_critical": 0,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12000.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.597,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.597,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.597,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13500.0
+    }
+   },
+   "partition_resize": {
+    "scenarios": 500,
+    "stale_items": 349,
+    "critical_items": 349,
+    "scenarios_with_stale": 349,
+    "needed_hours": 34.9,
+    "trace": {
+     "recall": 0.0,
+     "precision": 0.0,
+     "missed_items": 349,
+     "missed_critical": 349,
+     "scenarios_with_miss": 349,
+     "scenarios_with_critical_miss": 349,
+     "claims_falsely_supported": 349,
+     "scenarios_with_false_support": 349,
+     "reverification_hours": 8000.0
+    },
+    "manifest": {
+     "recall": 1.0,
+     "precision": 0.2327,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12050.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.2327,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12050.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.0776,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13550.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.2327,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12050.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.0776,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13550.0
+    }
+   },
+   "can_add_msg": {
+    "scenarios": 500,
+    "stale_items": 735,
+    "critical_items": 735,
+    "scenarios_with_stale": 500,
+    "needed_hours": 12117.5,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 735,
+     "missed_critical": 735,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 500,
+     "claims_falsely_supported": 500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.3197,
+     "precision": 0.47,
+     "missed_items": 500,
+     "missed_critical": 500,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 500,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 250.0
+    },
+    "aag_direct": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.735,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 12250.0
+    }
+   },
+   "app_code_change": {
+    "scenarios": 500,
+    "stale_items": 1785,
+    "critical_items": 502,
+    "scenarios_with_stale": 500,
+    "needed_hours": 1001.0,
+    "trace": {
+     "recall": 0.5602,
+     "precision": 1.0,
+     "missed_items": 785,
+     "missed_critical": 2,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 2,
+     "claims_falsely_supported": 842,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 150.0
+    },
+    "manifest": {
+     "recall": 0.8723,
+     "precision": 0.7785,
+     "missed_items": 228,
+     "missed_critical": 2,
+     "scenarios_with_miss": 57,
+     "scenarios_with_critical_miss": 2,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4400.0
+    },
+    "aag_direct": {
+     "recall": 0.8734,
+     "precision": 0.692,
+     "missed_items": 226,
+     "missed_critical": 0,
+     "scenarios_with_miss": 57,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8448.0
+    },
+    "aag_closed": {
+     "recall": 1.0,
+     "precision": 0.3756,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 9698.0
+    },
+    "aag_cutoff": {
+     "recall": 1.0,
+     "precision": 0.7033,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 8590.5
+    },
+    "aag_closed_file": {
+     "recall": 1.0,
+     "precision": 0.357,
+     "missed_items": 0,
+     "missed_critical": 0,
+     "scenarios_with_miss": 0,
+     "scenarios_with_critical_miss": 0,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 13650.0
+    }
+   },
+   "dma_enable": {
+    "scenarios": 500,
+    "stale_items": 2451,
+    "critical_items": 241,
+    "scenarios_with_stale": 500,
+    "needed_hours": 8711.0,
+    "trace": {
+     "recall": 0.0,
+     "precision": null,
+     "missed_items": 2451,
+     "missed_critical": 241,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 3500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 0.0
+    },
+    "manifest": {
+     "recall": 0.204,
+     "precision": 1.0,
+     "missed_items": 1951,
+     "missed_critical": 241,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4000.0
+    },
+    "aag_direct": {
+     "recall": 0.204,
+     "precision": 1.0,
+     "missed_items": 1951,
+     "missed_critical": 241,
+     "scenarios_with_miss": 500,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 4000.0
+    },
+    "aag_closed": {
+     "recall": 0.9017,
+     "precision": 0.6314,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5500.0
+    },
+    "aag_cutoff": {
+     "recall": 0.9017,
+     "precision": 0.6314,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5500.0
+    },
+    "aag_closed_file": {
+     "recall": 0.9017,
+     "precision": 0.6314,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 5500.0
+    }
+   },
+   "ALL": {
+    "scenarios": 6500,
+    "stale_items": 22692,
+    "critical_items": 2759,
+    "scenarios_with_stale": 6102,
+    "needed_hours": 70728.4,
+    "trace": {
+     "recall": 0.1268,
+     "precision": 0.4428,
+     "missed_items": 19814,
+     "missed_critical": 1473,
+     "scenarios_with_miss": 5602,
+     "scenarios_with_critical_miss": 1238,
+     "claims_falsely_supported": 25556,
+     "scenarios_with_false_support": 5588,
+     "reverification_hours": 56450.0
+    },
+    "manifest": {
+     "recall": 0.5325,
+     "precision": 0.636,
+     "missed_items": 10608,
+     "missed_critical": 781,
+     "scenarios_with_miss": 3794,
+     "scenarios_with_critical_miss": 781,
+     "claims_falsely_supported": 500,
+     "scenarios_with_false_support": 500,
+     "reverification_hours": 107300.0
+    },
+    "aag_direct": {
+     "recall": 0.5784,
+     "precision": 0.6101,
+     "missed_items": 9568,
+     "missed_critical": 241,
+     "scenarios_with_miss": 3047,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 159492.0
+    },
+    "aag_closed": {
+     "recall": 0.9894,
+     "precision": 0.4275,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 174992.0
+    },
+    "aag_cutoff": {
+     "recall": 0.9894,
+     "precision": 0.5632,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 168669.0
+    },
+    "aag_closed_file": {
+     "recall": 0.9894,
+     "precision": 0.4196,
+     "missed_items": 241,
+     "missed_critical": 241,
+     "scenarios_with_miss": 241,
+     "scenarios_with_critical_miss": 241,
+     "claims_falsely_supported": 0,
+     "scenarios_with_false_support": 0,
+     "reverification_hours": 190800.0
+    },
+    "per_type": {
+     "e2e": {
+      "stale": 235,
+      "trace": 0.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "hil": {
+      "stale": 659,
+      "trace": 0.5736,
+      "manifest": 0.5736,
+      "aag_direct": 0.6343,
+      "aag_closed": 0.6343,
+      "aag_cutoff": 0.6343
+     },
+     "interference": {
+      "stale": 3581,
+      "trace": 0.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "mpu": {
+      "stale": 849,
+      "trace": 0.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "rta": {
+      "stale": 13868,
+      "trace": 0.0,
+      "manifest": 0.3274,
+      "aag_direct": 0.3274,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "static": {
+      "stale": 1500,
+      "trace": 1.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "tara": {
+      "stale": 1000,
+      "trace": 0.0,
+      "manifest": 0.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     },
+     "unit": {
+      "stale": 1000,
+      "trace": 1.0,
+      "manifest": 1.0,
+      "aag_direct": 1.0,
+      "aag_closed": 1.0,
+      "aag_cutoff": 1.0
+     }
+    }
+   }
+  }
+ },
+ "scope_errors": {
+  "p=0.05|checks=False": {
+   "recall": 0.9729,
+   "missed_items": 614,
+   "missed_critical": 358,
+   "scenarios_with_miss": 508,
+   "scenarios": 6500,
+   "escalation_rate": 0.0,
+   "false_positives": 29707
+  },
+  "p=0.05|checks=True": {
+   "recall": 0.9886,
+   "missed_items": 259,
+   "missed_critical": 259,
+   "scenarios_with_miss": 259,
+   "scenarios": 6500,
+   "escalation_rate": 0.113,
+   "false_positives": 30499
+  },
+  "p=0.0|checks=False": {
+   "recall": 0.9894,
+   "missed_items": 241,
+   "missed_critical": 241,
+   "scenarios_with_miss": 241,
+   "scenarios": 6500,
+   "escalation_rate": 0.0,
+   "false_positives": 30520
+  },
+  "p=0.0|checks=True": {
+   "recall": 0.9894,
+   "missed_items": 241,
+   "missed_critical": 241,
+   "scenarios_with_miss": 241,
+   "scenarios": 6500,
+   "escalation_rate": 0.0,
+   "false_positives": 30495
+  },
+  "p=0.1|checks=False": {
+   "recall": 0.9529,
+   "missed_items": 1069,
+   "missed_critical": 474,
+   "scenarios_with_miss": 767,
+   "scenarios": 6500,
+   "escalation_rate": 0.0,
+   "false_positives": 28695
+  },
+  "p=0.1|checks=True": {
+   "recall": 0.9872,
+   "missed_items": 291,
+   "missed_critical": 291,
+   "scenarios_with_miss": 291,
+   "scenarios": 6500,
+   "escalation_rate": 0.1859,
+   "false_positives": 30519
+  },
+  "p=0.2|checks=False": {
+   "recall": 0.904,
+   "missed_items": 2178,
+   "missed_critical": 677,
+   "scenarios_with_miss": 1337,
+   "scenarios": 6500,
+   "escalation_rate": 0.0,
+   "false_positives": 26631
+  },
+  "p=0.2|checks=True": {
+   "recall": 0.9861,
+   "missed_items": 316,
+   "missed_critical": 316,
+   "scenarios_with_miss": 316,
+   "scenarios": 6500,
+   "escalation_rate": 0.2961,
+   "false_positives": 30488
+  },
+  "p=0.3|checks=False": {
+   "recall": 0.8471,
+   "missed_items": 3470,
+   "missed_critical": 926,
+   "scenarios_with_miss": 1914,
+   "scenarios": 6500,
+   "escalation_rate": 0.0,
+   "false_positives": 24355
+  },
+  "p=0.3|checks=True": {
+   "recall": 0.9845,
+   "missed_items": 352,
+   "missed_critical": 352,
+   "scenarios_with_miss": 352,
+   "scenarios": 6500,
+   "escalation_rate": 0.3908,
+   "false_positives": 30508
+  }
+ },
+ "config": {
+  "n_systems": 500,
+  "seed": 2,
+  "changes": [
+   "add_ids_island",
+   "add_ids_app",
+   "realloc_island",
+   "realloc_app",
+   "app_sram_enable",
+   "wcet_change",
+   "refactor",
+   "period_change",
+   "ic_change",
+   "partition_resize",
+   "can_add_msg",
+   "app_code_change",
+   "dma_enable"
+  ],
+  "cost_hours": {
+   "interference.analytic": 2,
+   "interference.measured": 8,
+   "rta": 0.5,
+   "mpu": 0.1,
+   "hil": 16,
+   "unit": 0.1,
+   "static": 0.2,
+   "e2e": 0.5,
+   "tara": 24,
+   "review": 8
+  }
+ }
+}
